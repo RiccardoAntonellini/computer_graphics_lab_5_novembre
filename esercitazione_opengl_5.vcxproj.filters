@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne\GLAD">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne\GLFW">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne\ImGui">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne\ImGui\Header Files">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dipendenze esterne\ImGui\Source Files">
+      <UniqueIdentifier>{A0E1C663-4B08-4A4D-B567-80B6071C5009}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dependencies_GL_GLFW\glad.c">
+      <Filter>Dipendenze esterne\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_demo.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_draw.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_tables.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies_GL_GLFW\ImGui\imgui_widgets.cpp">
+      <Filter>Dipendenze esterne\ImGui\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="esportazione_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gestione_curve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gestione_interazioni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gestione_multicurva.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_Finestra_Eventi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_geometrie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_GLFW_OpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inizializzazioni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\Esercitazione_5_11_26_ParteI\ShaderMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\Esercitazione_5_11_26_ParteI\Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\Esercitazione_5_11_26_ParteI\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies_GL_GLFW\include\glad\glad.h">
+      <Filter>Dipendenze esterne\GLAD</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\include\KHR\khrplatform.h">
+      <Filter>Dipendenze esterne\GLAD</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\include\GLFW\glfw3.h">
+      <Filter>Dipendenze esterne\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\include\GLFW\glfw3native.h">
+      <Filter>Dipendenze esterne\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imconfig.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imgui.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imgui_impl_glfw.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imgui_impl_opengl3.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imgui_internal.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imstb_rectpack.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imstb_textedit.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies_GL_GLFW\ImGui\imstb_truetype.h">
+      <Filter>Dipendenze esterne\ImGui\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="esportazione_obj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gestione_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gestione_interazioni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gestione_multicurva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_Finestra_Eventi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="init_geometrie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="init_GLFW_OpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inizializzazioni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strutture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="earcut.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\Esercitazione_5_11_26_ParteI\ShaderMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\Esercitazione_5_11_26_ParteI\Gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dependencies_GL_GLFW\lib\glfw3.lib">
+      <Filter>Dipendenze esterne\GLFW</Filter>
+    </None>
+    <None Include="shader\vertexshaderC.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\fragmentshaderC.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="README_PRIMA_DI_INIZIARE.txt" />
+    <None Include="packages.config" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
